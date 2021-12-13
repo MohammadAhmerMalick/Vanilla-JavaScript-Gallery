@@ -1,0 +1,46 @@
+.controller {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.controller .filter-button {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.gallery-items {
+  display: table;
+  content: " ";
+  width: 100%;
+}
+
+.gallery-items .gallery-item {
+  width: 33.33333333%;
+  float: left;
+  display: block;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  opacity: 1;
+}
+
+.gallery-items .gallery-item.w-0 {
+  width: 0;
+  opacity: 0;
+}
+
+.gallery-items .gallery-item img {
+  display: block;
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+/*# sourceMappingURL=index.css.map */

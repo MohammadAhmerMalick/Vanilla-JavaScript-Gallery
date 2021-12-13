@@ -1,2 +1,2 @@
 # Vanilla-JavaScript-Gallery
-simple Vanilla-JS gallery without additional library 
+Simple Vanilla-JS gallery/Portfolio without additional library 
